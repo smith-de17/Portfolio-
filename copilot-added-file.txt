@@ -1,3 +1,0 @@
-This file was added to the repository by GitHub Copilot.
-
-It is a demonstration file created for the request to add a file to the GitHub repository.
