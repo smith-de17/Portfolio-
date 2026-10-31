@@ -1,49 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects | Destinie's Portfolio</title>
-</head>
-<body>
-  <header>
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Destinie's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="projects-page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">Destinie's Portfolio</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link active" href="projects.html">Projects</a></li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <main>
-    <section>
-      <h1>Projects</h1>
-      <p>Here are some examples of my work and projects.</p>
-    </section>
+    <main class="page-main">
+      <section class="container">
+        <div class="section-header">
+          <p class="eyebrow">My work</p>
+          <h1>Projects</h1>
+          <p>
+            Here are some examples of my work and the kinds of projects I am building
+            as I continue to learn and grow in technology.
+          </p>
+        </div>
+      </section>
 
-    <section>
-      <h2>My Work</h2>
+      <section class="container">
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="project-meta">Web design</span>
+            <h3>Portfolio Website</h3>
+            <p>
+              A personal website that highlights my skills, interests, and goals while
+              demonstrating a clean and modern user experience.
+            </p>
+          </article>
 
-      <article>
-        <h3>Portfolio Website</h3>
-        <p>A personal website that shows my skills, interests, and goals.</p>
-      </article>
+          <article class="project-card">
+            <span class="project-meta">Learning</span>
+            <h3>Technology Project</h3>
+            <p>
+              A project created to practice HTML structure, layout decisions, and design
+              fundamentals in a simple but effective way.
+            </p>
+          </article>
 
-      <article>
-        <h3>Technology Project</h3>
-        <p>A basic project created to practice HTML structure and organization.</p>
-      </article>
+          <article class="project-card">
+            <span class="project-meta">Growth</span>
+            <h3>Future Project</h3>
+            <p>
+              I will add more advanced work here as I continue building my technical
+              skills and creative confidence.
+            </p>
+          </article>
+        </div>
+      </section>
 
-      <article>
-        <h3>Future Project</h3>
-        <p>I will add more work here as I continue learning.</p>
-      </article>
-    </section>
-  </main>
+      <section class="container">
+        <div class="section-header">
+          <h2>What I am focusing on</h2>
+        </div>
+        <div class="about-grid">
+          <article class="info-panel">
+            <h3>Design</h3>
+            <p>
+              I am learning how to balance aesthetics with usability so that websites
+              feel welcoming and easy to navigate.
+            </p>
+          </article>
 
-  <footer>
-    <p>&copy; 2026 Destinie's Portfolio</p>
-  </footer>
-</body>
+          <article class="info-panel">
+            <h3>Development</h3>
+            <p>
+              I am building my understanding of structure, styling, and responsive web
+              layout so that my projects work across different screen sizes.
+            </p>
+          </article>
+
+          <article class="info-panel">
+            <h3>Problem solving</h3>
+            <p>
+              I enjoy figuring out how to improve my work, troubleshoot issues, and
+              keep learning from each project I create.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Destinie's Portfolio</p>
+      </div>
+    </footer>
+  </body>
 </html>
