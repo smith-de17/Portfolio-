@@ -1,52 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Destinie's Portfolio</title>
-</head>
-<body>
-  <header>
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Destinie's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="home-page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">Destinie's Portfolio</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a class="nav-link active" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="projects.html">Projects</a></li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <main>
-    <section>
-      <h1>Destinie's Portfolio</h1>
-      <p>Welcome to my portfolio website. I am a student learning about technology and web design.</p>
-    </section>
+    <main class="page-main">
+      <section class="container hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Student developer</p>
+          <h1>Building thoughtful digital experiences.</h1>
+          <p>
+            Welcome to my portfolio website. I am a student learning about technology,
+            web design, and how to create meaningful digital work.
+          </p>
+          <div class="cta-row">
+            <a class="button button-primary" href="projects.html">View my work</a>
+            <a class="button button-secondary" href="about.html">Learn about me</a>
+          </div>
+        </div>
 
-    <section>
-      <h2>Featured Work</h2>
-      <article>
-        <h3>Project 1</h3>
-        <p>This section can highlight one of my projects or assignments.</p>
-      </article>
-      <article>
-        <h3>Project 2</h3>
-        <p>This section can show another project or skill I am developing.</p>
-      </article>
-    </section>
+        <aside class="card hero-panel">
+          <h2>Quick snapshot</h2>
+          <ul class="info-list">
+            <li>Focus: HTML, CSS, and user-friendly design</li>
+            <li>Goal: Improve technical skills through practice</li>
+            <li>Tools: Visual Studio Code, GitHub, web browsers</li>
+          </ul>
+        </aside>
+      </section>
 
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML</li>
-        <li>Basic web design</li>
-        <li>Problem solving</li>
-        <li>Technology learning</li>
-      </ul>
-    </section>
-  </main>
+      <section class="container">
+        <div class="section-header">
+          <h2>Featured work</h2>
+        </div>
 
-  <footer>
-    <p>&copy; 2026 Destinie's Portfolio</p>
-  </footer>
-</body>
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="project-meta">Portfolio</span>
+            <h3>Portfolio Website</h3>
+            <p>
+              A personal website that showcases my growth, goals, and the projects I
+              create along the way.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <span class="project-meta">Learning</span>
+            <h3>Technology Project</h3>
+            <p>
+              A basic project focused on building structure, organization, and clean
+              web layout with HTML and CSS.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <span class="project-meta">Future</span>
+            <h3>Upcoming Work</h3>
+            <p>
+              I will add more projects here as I continue learning new tools and
+              design strategies.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="section-header">
+          <h2>Skills</h2>
+        </div>
+        <ul class="skills" aria-label="Skills list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Web design</li>
+          <li>Problem solving</li>
+          <li>Technology learning</li>
+          <li>Creative thinking</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Destinie's Portfolio</p>
+      </div>
+    </footer>
+  </body>
 </html>
