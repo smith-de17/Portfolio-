@@ -1,45 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About | Destinie's Portfolio</title>
-</head>
-<body>
-  <header>
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Destinie's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="about-page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">Destinie's Portfolio</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="projects.html">Projects</a></li>
+            <li><a class="nav-link active" href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <main>
-    <section>
-      <h1>About Me</h1>
-      <p>I am a student interested in technology and digital learning.</p>
-    </section>
+    <main class="page-main">
+      <section class="container">
+        <div class="section-header">
+          <p class="eyebrow">About me</p>
+          <h1>Student interested in technology and digital learning.</h1>
+          <p>
+            I am a student who enjoys learning about technology, creative problem
+            solving, and building digital work that is clear, useful, and engaging.
+          </p>
+        </div>
+      </section>
 
-    <section>
-      <h2>Goals</h2>
-      <p>I want to improve my technology skills and build a strong portfolio.</p>
-    </section>
+      <section class="container about-grid">
+        <article class="info-panel">
+          <h3>Goals</h3>
+          <p>
+            I want to strengthen my technology skills, improve my design thinking, and
+            create a portfolio that reflects my progress over time.
+          </p>
+        </article>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: destinie@example.com</p>
-    </section>
-  </main>
+        <article class="info-panel">
+          <h3>Interests</h3>
+          <p>
+            I enjoy learning how websites are structured, how colors and layouts affect
+            user experience, and how digital tools can solve everyday problems.
+          </p>
+        </article>
 
-  <footer>
-    <p>&copy; 2026 Destinie's Portfolio</p>
-  </footer>
-</body>
-</html>
-  <footer>
-    <p>&copy; 2026 Destinie's Portfolio</p>
-  </footer>
-</body>
+        <article class="info-panel">
+          <h3>Learning path</h3>
+          <p>
+            I am building hands-on experience with HTML, CSS, and responsive design so
+            I can become more confident in creating polished and accessible web pages.
+          </p>
+        </article>
+      </section>
+
+      <section class="container">
+        <div class="section-header">
+          <h2>Contact</h2>
+        </div>
+        <div class="info-panel">
+          <ul class="contact-list">
+            <li><strong>Email:</strong> destinie@example.com</li>
+            <li><strong>Location:</strong> Student portfolio / digital learning</li>
+            <li><strong>Focus:</strong> Technology, design, and growth</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Destinie's Portfolio</p>
+      </div>
+    </footer>
+  </body>
 </html>
