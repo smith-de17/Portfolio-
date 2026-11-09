@@ -244,7 +244,7 @@ p {
 .project-card h2,
 .project-card h3,
 .info-panel h2,
-.info-panel h3{
+.info-panel h3 {
   font-size: 1.5rem;
   margin-bottom: var(--space-2);
 }
